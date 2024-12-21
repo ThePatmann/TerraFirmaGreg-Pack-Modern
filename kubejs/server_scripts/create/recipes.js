@@ -438,7 +438,7 @@ const registerCreateRecipes = (event) => {
     ], {
         A: 'create:andesite_casing',
         B: 'create:shaft',
-        C: '#forge:plates/wrought_iron'
+        C: '#forge:plates/wrought_iron',
         D: 'firmaciv:rope_coil'
     }).id('tfg:create/shaped/rope_pulley')
 
@@ -450,7 +450,7 @@ const registerCreateRecipes = (event) => {
     ], {
         A: 'create:brass_casing',
         B: 'create:shaft',
-        C: '#forge:plates/wrought_iron'
+        C: '#forge:plates/wrought_iron',
         D: 'firmaciv:rope_coil',
         E: 'minecraft:redstone'
     }).id('tfg:create/shaped/elevator_pulley')
