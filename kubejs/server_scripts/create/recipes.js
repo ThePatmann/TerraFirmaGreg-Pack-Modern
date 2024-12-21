@@ -432,24 +432,27 @@ const registerCreateRecipes = (event) => {
 
     // Канатный шкиф
     event.shaped('create:rope_pulley', [
-        'A',
-        'B',
-        'C' 
+        'A ',
+        'BD',
+        'C '
     ], {
         A: 'create:andesite_casing',
-        B: '#minecraft:wool',
+        B: 'create:shaft',
         C: '#forge:plates/wrought_iron'
+        D: 'firmaciv:rope_coil'
     }).id('tfg:create/shaped/rope_pulley')
 
     // Шкиф подъемника
     event.shaped('create:elevator_pulley', [
-        'A',
-        'B',
-        'C' 
+        'AE',
+        'BD',
+        'C '
     ], {
         A: 'create:brass_casing',
-        B: 'tfc:bellows',
+        B: 'create:shaft',
         C: '#forge:plates/wrought_iron'
+        D: 'firmaciv:rope_coil',
+        E: 'minecraft:redstone'
     }).id('tfg:create/shaped/elevator_pulley')
 
     // Сборщик вагонеток
